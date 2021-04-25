@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 1290px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    margin: 0px auto ;
+    width: 1290px;
+    text-align: center;
+}
+.vector{
+    position: absolute;
+    z-index: 10;
+    margin: 40px auto;
+    text-align: center;
+    width: 95%;
+    left: 0;
+    right: 0;
+}
+section.header{
+    background: url('../img/Group6rework.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 1234px;
+}
+section.header .container{
+    top: 40px;
+    position: relative;
+}
+.logo {
+    width: 467px;
+    margin:0px auto;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 126px;
+    height: 127px;
+    transform: scale(0.9);
+}
+h1.title{
+    font-family: Angelica, serif;
+    font-size: 120px;
+    font-weight: 400;
+    top: 22px;
+    margin: 0px auto;
+    padding: 15px;
+    position: relative;
+    width: 931px;
+}
+p.facts{
+    width: 648px;
+    font-size: 28px;
+    margin: 63px auto 5px;
+}
+img.column{
+    margin: 0px auto;
+    right: 50px ;
+    position: relative;
+}
+section.select{
+    background: url('../img/image3.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 1935px;
+    top: -176px;
+    position: relative;
+}
+section.select img.VectorSelect{
+    width: 226px;
+    margin: 220px auto 0px;
+    position: relative;
+}
+section.select .change{
+    margin: 0px auto;
+    margin-top: 51px;
+    z-index: 10;
+position: relative;
+}
+.change img{
+    position: absolute;
+    margin: 0px auto;
+    left: 0;
+    right: 0px;
+}
+.change img.border{
+    left: 0;
+    right: 0px;
+    top: -17px;
+    z-index: -1;
+}
+select{
+    width: 619px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 14px 16px;
+    border: 0px;
+    top: -10px;
+    position: relative;
+}
+option{
+    padding: 12px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-image:url('../img/VectorList.png');
+}
