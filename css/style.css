@@ -76,7 +76,9 @@ section.select .change{
     margin: 0px auto;
     margin-top: 51px;
     z-index: 10;
-position: relative;
+    position: relative;
+    text-align: left;
+    color: #3E3E3E;
 }
 .change img{
     position: absolute;
@@ -90,17 +92,87 @@ position: relative;
     top: -17px;
     z-index: -1;
 }
-select{
+div.selected{
+    background: white;
+    padding: 14px 16px;
     width: 619px;
     font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 14px 16px;
     border: 0px;
     top: -10px;
     position: relative;
+    margin: 0px auto;
+    box-sizing: border-box;
+    z-index: -3;
+    display: flex;
 }
-option{
-    padding: 12px 15px;
+.menu{
+    margin: 0px auto;
+    width: 621px;
+    padding: 10px;
+    background: white;
+    box-sizing: border-box;
+}
+ul{
+    background: white;
+    height: 420px;
+    width: 560px;
+    overflow-y: scroll;
+    border: 2px solid #C09068;
+    margin: 0px;
+}
+li{
+    cursor: pointer;
+    padding: 20px 13px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style-image:url('../img/VectorList.png');
 }
+li:hover {
+    color: #C09068;
+    list-style-image:url('../img/VectorListS.png');
+}
+.samara{
+    color: rgb(177, 177, 177);
+    margin: 0;
+    left: 5px;
+    position: relative;
+}
+.arrow{
+    border: 1px solid #C09068;
+    border-radius: 40px;
+    padding: 9px 7px;
+    right: -570px !important;
+    top: 10px;
+}
+ul::-webkit-scrollbar-thumb {
+    background:  url(../img/scrollbar_thumb.png) no-repeat top;
+    background-size: contain;
+    border: 0px ;
+    z-index: 15;
+}  
+ul::-webkit-scrollbar {
+    width: 10px;
+    position: relative;
+}   
+ul::-webkit-scrollbar-track {
+    background: #C09068; 
+    width: 2px;
+    border: 4px solid transparent;
+    background-clip: content-box; 
+    
+}     
+ul::-webkit-scrollbar-button {
+    background: url(../img/ArrowScrollbar.png) no-repeat;
+    background-size: contain;
+}       
+section.map{
+    background: url(../img/SamaraRegion.png) no-repeat  center ;
+    height: 1885px;
+    position: absolute;
+    top: 1160px;
+    background-size: contain;
+    
+    left: 0;
+    right: 0;
+}
+
